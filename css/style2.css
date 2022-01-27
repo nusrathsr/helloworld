@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+}
+body {
+	font-family:"baloo_2regular" ;
+
+}
+@font-face {
+    font-family: 'baloo_2bold';
+    src: url('../fonts/baloo/baloo2-bold-webfont.woff2') format('woff2'),
+         url('../fonts/baloo/baloo2-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'baloo_2regular';
+    src: url('../fonts/baloo/baloo2-regular-webfont.woff2') format('woff2'),
+         url('../fonts/baloo/baloo2-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 {
+	font-family:'baloo_2bold' ;
+}

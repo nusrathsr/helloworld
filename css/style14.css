@@ -1,0 +1,44 @@
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 0;
+
+}
+ul li {
+	display: inline-block;
+	width: 30%;
+	margin-right: 5%;
+
+}
+input {
+	padding: 40px 100px;
+	font-size: 30px;
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	background: #f5f5f5;
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+ul li:last-child {
+	margin-right: 0;
+}
+ul li input:focus {
+	border: 5px solid blue;
+}
+ul li input:required {
+	background: orange;
+}
+ul li input:disabled {
+	background: #e4e4e4;
+	cursor: help;
+}
+ul li input:invalid {
+	border: 5px solid red;
+}
+ul li input:in-range {
+	border: 5px solid green;
+}

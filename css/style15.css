@@ -1,0 +1,15 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 500px;
+	
+}
+.item {
+	flex: 1;
+	height: 100px;
+	background: red;
+	border-right: 1px solid #fff;
+}
+.item:first-child {
+	background: #000;	
+}

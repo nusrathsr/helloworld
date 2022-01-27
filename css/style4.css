@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+}
+
+.one {
+	background: red;
+	position: relative;
+	height: 200px;
+	z-index: 3;
+
+}
+.two {
+	background: skyblue;
+	position: relative;
+	height: 200px;
+}
+div.two h1 {
+	height:80px ;
+	background: yellow;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 30px;
+}

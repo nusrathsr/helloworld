@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+}
+:root {
+	--common-padding: 10px;
+}
+p {
+	padding: var(--common-padding);
+	background: red;
+}
+div {
+	padding: var(--common-padding);
+	background: green;
+}
+section {
+	padding: var(--common-padding);
+	background: blue;
+}
+@media (prefers-color-scheme: dark) {
+	section {
+		background: #000;
+		color: #fff;
+	}
+}

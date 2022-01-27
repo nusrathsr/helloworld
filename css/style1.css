@@ -1,0 +1,22 @@
+body {
+	font-family: 'Baloo 2', cursive;
+}
+* {
+	margin: 0;
+}
+
+div.container {
+	background: #0ff;
+
+}
+div.item {
+	background: #0fe;
+	height: 200px;
+	border: 1px solid #000;
+	width: 20%;
+	float: right;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
